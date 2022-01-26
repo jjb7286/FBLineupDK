@@ -18,18 +18,25 @@
 
 ![image](https://user-images.githubusercontent.com/61070285/151221467-be888c61-06f0-41dc-823d-845fce058bf3.png)
 
+**GUI:**
+- QB Tab - The user can compare the Over/Unders, Salaries, and Projections of the available QBs. When a QB is selected, the QB's game Location, Date & Time, Matchup Rating, Matchup Letter Grade, and Average Performance vs Projection are provided in the Player Info section. Additionally, a table populates showing the selected QB's Offensive Teammates. Exactly 1 QB must be locked for the Lineup Generator to run. When a QB is locked, the QB Stacks table below populates with the top 2 RB, TE, and 3 WR on the same team as the QB. A maximum of 150 lineups are available for QB-Teammate stacks, and the user can decide how many stacks (if any) they would like to play for each of the 6 QB Teammates shown. The QB Stack table remains in view for quick reference as the user navigates through th other position tabs. 
 ![image](https://user-images.githubusercontent.com/61070285/151221653-2b561240-ba3a-4231-93e7-0e3405504141.png)
 
+- RB Tab - The user can compare the Over/Unders, Projected Roster %s, Salaries, and Projections of the available RBs. When a RB is selected, the RB's game Location, Date & Time, and Point Spread are provided in the Player Info section. The slider allows the user to customize the projection for the selected player, and a maximum of 1 RB can be selected as a lock in a chosen percentage of the total lineups. Additionally, the RB Position Parameters for the RB Group allows the user to set a minimum projection threshold for consideration for lineups, and set an upper bound for the maximum percentage of lineups non-locked RBs can appear on. Lastly, the FLEX List checkbox allows the user to decide whether or not the RB position is included in the list of available FLEX players. 
 ![image](https://user-images.githubusercontent.com/61070285/151221852-f24eba92-8a01-4e29-ba7d-cccd275b1b74.png)
 
+- WR Tab - The user can compare the Over/Unders, Projected Roster %s, Salaries, and Projections of the available WRs. When a WR is selected, the WR's game Location, Date & Time, and Point Spread are provided in the Player Info section. The slider allows the user to customize the projection for the selected player, and a maximum of 2 WRs can be selected as a lock in a chosen percentage of the total lineups. Additionally, the WR Position Parameters for the WR Group allows the user to set a minimum projection threshold for consideration for lineups, and set an upper bound for the maximum percentage of lineups non-locked WRs can appear on. Lastly, the FLEX List checkbox allows the user to decide whether or not the WR position is included in the list of available FLEX players. 
 ![image](https://user-images.githubusercontent.com/61070285/151221975-c02ac858-dbdf-4311-8f29-8ba91eb34f4a.png)
 
+- TE Tab - The user can compare the Over/Unders, Projected Roster %s, Salaries, and Projections of the available TEs. When a TE is selected, the TE's game Location, Date & Time, and Point Spread are provided in the Player Info section. The slider allows the user to customize the projection for the selected player, and a maximum of 1 TE can be selected as a lock in a chosen percentage of the total lineups. Additionally, the TE Position Parameters for the TE Group allows the user to set a minimum projection threshold for consideration for lineups, and set an upper bound for the maximum percentage of lineups non-locked RBs can appear on. Lastly, the FLEX List checkbox allows the user to decide whether or not the TE position is included in the list of available FLEX players. 
 ![image](https://user-images.githubusercontent.com/61070285/151222061-843b0a2e-8610-44b4-a4e2-50d58e5c449a.png)
 
+- DST Tab - The user can compare the Over/Unders, Projected Roster %s, Salaries, and Projections of the available DSTs. When a DST is selected, the DST's game Location, Date & Time, and Point Spread are provided in the Player Info section. The slider allows the user to customize the projection for the selected player, and a maximum of 1 DST can be selected as a lock in a chosen percentage of the total lineups. Additionally, the DST Position Parameters for the DST Group allows the user to set a minimum projection threshold for consideration for lineups, and set an upper bound for the maximum percentage of lineups non-locked DSTs can appear on. Lastly, the No Conflict checkbox allows the user to decide whether or not DSTs can appear in the same lineup as opposing offensive players, to eliminate potential offsetting scores. 
 ![image](https://user-images.githubusercontent.com/61070285/151222183-d35a9725-1e1d-4385-94b7-ac45c96b1dac.png)
 
+- Matchups Tab
 ![image](https://user-images.githubusercontent.com/61070285/151222339-fe5cf9b1-6192-47c6-a28a-1880de0b0f9a.png)
-
+- Lineups Tab
 ![image](https://user-images.githubusercontent.com/61070285/151223064-648ba600-ada9-48ce-b3e6-d47732d032ff.png)
 
 ![image](https://user-images.githubusercontent.com/61070285/151223148-923346be-f164-4a65-8fbc-3113d53b9966.png)
