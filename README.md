@@ -12,4 +12,44 @@
 - DST - C(32, 1) = 32
 - 32 * 2016 * 142880 * 32 * 182 * 32 = 1,717,842,298,798,080 total lineups -> @ 1,000,000 lineups/second -> 28,630,704 minutes -> 19,882 days -> 54.47 years
 
-**A Solution:** There are several pre-packed resources available that utilize Linear Programming and/or Dynamic Programming and Memoization to solve the lineup optimization problem; however, the purpose of this exercise is to generate a custom/unique solution (and write more code) so those are not considered. Perhaps the most important distinction to make between this problem and a more classic example of the Knapsack Problem is that the 'values' are not concrete - they are projected values, and the actual statistical performance of players will rarely, if ever, exactly match their projections. This introduces an element of randomness and also the opportunity for some human discretion. If projections were consistently accurate these games would have no allure, the highest projected lineups would score the most points and there would be very little variation between the lineup pools. Instead, players are tasked with using their knowledge and resouces to identify opportunities for over performance, while trying to avoid the pitfalls of potential underperformance. 
+**My Solution:** There are several pre-packed resources available that utilize Linear Programming and/or Dynamic Programming and Memoization to solve the lineup optimization problem; however, the purpose of this exercise is to generate a custom/unique solution (and write more code) so those are not considered. Perhaps the most important distinction to make between this problem and a more classic example of the Knapsack Problem is that the 'values' are not concrete - they are projected values, and the actual statistical performance of players will rarely, if ever, exactly match their projections. This introduces an element of randomness and also the opportunity for some human discretion. If projections were consistently accurate these games would have no allure, the highest projected lineups would score the most points and there would be very little variation between the lineup pools. Instead, players are tasked with using their knowledge and resouces to identify opportunities for over performance, while trying to avoid the pitfalls of potential underperformance. 
+
+
+
+![image](https://user-images.githubusercontent.com/61070285/151221467-be888c61-06f0-41dc-823d-845fce058bf3.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151221653-2b561240-ba3a-4231-93e7-0e3405504141.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151221852-f24eba92-8a01-4e29-ba7d-cccd275b1b74.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151221975-c02ac858-dbdf-4311-8f29-8ba91eb34f4a.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151222061-843b0a2e-8610-44b4-a4e2-50d58e5c449a.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151222183-d35a9725-1e1d-4385-94b7-ac45c96b1dac.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151222339-fe5cf9b1-6192-47c6-a28a-1880de0b0f9a.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151223064-648ba600-ada9-48ce-b3e6-d47732d032ff.png)
+
+![image](https://user-images.githubusercontent.com/61070285/151223148-923346be-f164-4a65-8fbc-3113d53b9966.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
