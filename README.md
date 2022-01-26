@@ -34,9 +34,10 @@
 - DST Tab - The user can compare the Over/Unders, Projected Roster %s, Salaries, and Projections of the available DSTs. When a DST is selected, the DST's game Location, Date & Time, and Point Spread are provided in the Player Info section. The slider allows the user to customize the projection for the selected player, and a maximum of 1 DST can be selected as a lock in a chosen percentage of the total lineups. Additionally, the DST Position Parameters for the DST Group allows the user to set a minimum projection threshold for consideration for lineups, and set an upper bound for the maximum percentage of lineups non-locked DSTs can appear on. Lastly, the No Conflict checkbox allows the user to decide whether or not DSTs can appear in the same lineup as opposing offensive players, to eliminate potential offsetting scores. 
 ![image](https://user-images.githubusercontent.com/61070285/151222183-d35a9725-1e1d-4385-94b7-ac45c96b1dac.png)
 
-- Matchups Tab
+- Matchups Tab - The user can compare the Over/Unders and Point Spreads of the NFL games available to pick fantasy players from. When a matchup is selected, the Matchup Controls allow the user to adjust the scores by a percentage (+/-) for all non-locked RBs, WRs, and TEs for both home and away teams separately. This allows the user to adjust projections for several players based on overall matchup rather than having to adjust scores one-by-one.   
 ![image](https://user-images.githubusercontent.com/61070285/151222339-fe5cf9b1-6192-47c6-a28a-1880de0b0f9a.png)
-- Lineups Tab
+
+- Lineups Tab - After the user has locked a QB, selected number of stack lineups, and completed the desired adjustments in each tab they can generate the lineups. After lineup generation is complete, the Lineups Tab enables and the table displays 150 unique lineups and their projections. 
 ![image](https://user-images.githubusercontent.com/61070285/151223064-648ba600-ada9-48ce-b3e6-d47732d032ff.png)
 
 ![image](https://user-images.githubusercontent.com/61070285/151223148-923346be-f164-4a65-8fbc-3113d53b9966.png)
