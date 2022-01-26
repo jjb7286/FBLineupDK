@@ -16,7 +16,12 @@
 
 
 
+
+
+**DATA:**
+After pre-registering on DraftKings for an upcoming contest, the entry IDs and player names, positions, IDs, salaries, and points per game are available to export as a single CSV file, as shown below. 
 ![image](https://user-images.githubusercontent.com/61070285/151221467-be888c61-06f0-41dc-823d-845fce058bf3.png)
+FantasyPros.com offers a plethera of resources and research, including player rankings, projections, game odds (over/unders, point spreads), matchup ratings, etc. These are also available to export as csvs for each position. 
 
 **GUI:**
 - QB Tab - The user can compare the Over/Unders, Salaries, and Projections of the available QBs. When a QB is selected, the QB's game Location, Date & Time, Matchup Rating, Matchup Letter Grade, and Average Performance vs Projection are provided in the Player Info section. Additionally, a table populates showing the selected QB's Offensive Teammates. Exactly 1 QB must be locked for the Lineup Generator to run. When a QB is locked, the QB Stacks table below populates with the top 2 RB, TE, and 3 WR on the same team as the QB. A maximum of 150 lineups are available for QB-Teammate stacks, and the user can decide how many stacks (if any) they would like to play for each of the 6 QB Teammates shown. The QB Stack table remains in view for quick reference as the user navigates through the other position tabs. 
