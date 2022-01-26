@@ -37,7 +37,7 @@
 - Matchups Tab - The user can compare the Over/Unders and Point Spreads of the NFL games available to pick fantasy players from. When a matchup is selected, the Matchup Controls allow the user to adjust the scores by a percentage (+/-) for all non-locked RBs, WRs, and TEs for both home and away teams separately. This allows the user to adjust projections for several players based on overall matchup rather than having to adjust scores one-by-one.   
 ![image](https://user-images.githubusercontent.com/61070285/151222339-fe5cf9b1-6192-47c6-a28a-1880de0b0f9a.png)
 
-- Lineups Tab - After the user has locked a QB, selected number of stack lineups, and completed the desired adjustments in each tab they can generate the lineups. After lineup generation is complete, the Lineups Tab enables and the table displays 150 unique lineups and their projections. 
+- Lineups Tab - After the user has locked a QB, input the number of stack lineups, and adjusted the settings in each tab, they can generate the lineups. When lineup generation is complete, the Lineups Tab is enabled for selection and the table displays 150 unique lineups and their projections. If the user is satisfied with the lineup list, they can save and export to csv for upload to DraftKings.  
 ![image](https://user-images.githubusercontent.com/61070285/151223064-648ba600-ada9-48ce-b3e6-d47732d032ff.png)
 
 ![image](https://user-images.githubusercontent.com/61070285/151223148-923346be-f164-4a65-8fbc-3113d53b9966.png)
