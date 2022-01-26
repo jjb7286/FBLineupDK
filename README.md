@@ -40,6 +40,7 @@
 - Lineups Tab - After the user has locked a QB, input the number of stack lineups, and adjusted the settings in each tab, they can generate the lineups. When lineup generation is complete, the Lineups Tab is enabled for selection and the table displays 150 unique lineups and their projections. If the user is satisfied with the lineup list, they can save and export to csv for upload to DraftKings.  
 ![image](https://user-images.githubusercontent.com/61070285/151223064-648ba600-ada9-48ce-b3e6-d47732d032ff.png)
 
+- Final CSV - 
 ![image](https://user-images.githubusercontent.com/61070285/151223148-923346be-f164-4a65-8fbc-3113d53b9966.png)
 
 
