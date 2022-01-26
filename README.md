@@ -4,12 +4,12 @@
 
 **Problem:** Build a tool to construct 150 unique lineups for the multi-lineup (150) NFL weekly contests offered on DraftKings. Per DraftKings football contest rules, each lineup must consist of 1 quarterback (QB), 2 running backs (RB), 3 wide receivers (WR), 1 tight tnd (TE), 1 flex player (RB/WR/TE), and 1 defense/special teams (DST). DraftKings assigns each player a salary, and the combined salaries of the players in a given lineup cannot exceed $50,000. The popularity of fantasy sports has created a demand for individual score projections, and there are several online resources available to choose from - this project utilizes FantasyPros projections. Potential lineups can be compared using aggregate player projections, with higher projected scores favored over lower ones. This is a variation of the 0/1 Knapsack Problem, with an additional constraint defining the quantity of each position required in a valid lineup. The player projections are their 'value' and the salaries are their 'cost', with the maximum capacity of the 'knapsack' represented by the $50,000 lineup salary cap. The Knapsack Problem is NP-complete and has no known polynomial-time solution, and solving by brute force has a time complexity of O(2^n). Even if we only consider the top QB, top 2 RB, top 3 WR, top TE, and DST for each of the 32 nfl teams, it would take approximately 54.5 years to evaluate every possible lineup at a rate of 1,000,000 lineups per second.
 
-QB - C(32, 1) = 32
-RB - C(64, 2) = 2016
-WR - C(92, 3) = 142880
-TE - C(32, 1) = 32
-FLEX - C(182, 1) = 182
-DST - C(32, 1) = 32
-32*2016*142880*32*182*32 = 1,717,842,298,798,080 total lineups -> @ 1,000,000 lineups/second -> 28,630,704 minutes -> 19,882 days -> 54.47 years
+- QB - C(32, 1) = 32
+- RB - C(64, 2) = 2016
+- WR - C(92, 3) = 142880
+- TE - C(32, 1) = 32
+- FLEX - C(182, 1) = 182
+- DST - C(32, 1) = 32
+- 32*2016*142880*32*182*32 = 1,717,842,298,798,080 total lineups -> @ 1,000,000 lineups/second -> 28,630,704 minutes -> 19,882 days -> 54.47 years
 
 **A Solution:** There are several pre-packed resources available that utilize Linear Programming and/or Dynamic Programming and Memoization to solve the lineup optimization problem; however, the purpose of this exercise is to generate a custom/unique solution (and write more code) so those are not considered. Perhaps the most important distinction to make between this problem and a more classic example of the Knapsack Problem is that the 'values' are not concrete - they are projected values, and the actual statistical performance of players will rarely, if ever, exactly match their projections. This introduces an element of randomness and also the opportunity for some human discretion. If projections were consistently accurate these games would have no allure, the highest projected lineups would score the most points and there would be very little variation between the lineup pools. Instead, players are tasked with using their knowledge and resouces to identify opportunities for over performance, while trying to avoid the pitfalls of potential underperformance. 
