@@ -16,7 +16,7 @@
 
 The goal is to 'pack' as many projected points into the lineup while remaining below the $50,000 salary cap, so ranking players on the basis of Salary/Projected Points gives us a cost-per-point metric for comparison. For example, WR Justin Jefferson has a salary of $8200 and is projected to score 19.90 points, yielding a cost of $412.06 per projected point. WR DeAndre Hopkins has a salary of $6200 and is projected to score 15.60 points, yielding a cost of $397.44 per projected point. One can argue that, by comparison, DeAndre Hopkins is the better value as each projected point costs less. Further, Hopkins requires $2000 less cap space than Jefferson, which can be allocated to other positions. Sorting the position lists on an ascending cost-per-point basis ranks the players by 'value' from greatest to least, but still doesn't reduce the time complexity.
 
-Intuitively, it seems that the optimal lineup is likely comprised of a set of players somewhere in the top half of their respective value sorted position lists. This notion lends itself to the idea of shortening the positions lists to remove the 'least valuable' players; however, that threshold is difficult to determine and still does not guarantee a reasonable run time. 
+Intuitively, it seems that the optimal lineup is likely comprised of a set of players somewhere in the top half of their respective value sorted position lists. This notion lends itself to the idea of shortening the positions lists to remove the 'least valuable' players; however, that threshold is difficult to determine and still does not guarantee a reasonable run time. In this example, a heuristic approach is utilized to speed up runtime.  
 
 
 
