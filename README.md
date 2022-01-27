@@ -16,7 +16,7 @@
 
 The goal is to 'pack' as many projected points into the lineup while remaining below the $50,000 salary cap, so ranking players on the basis of Salary/Projected Points gives us a cost-per-point metric for comparison. For example, WR Justin Jefferson has a salary of $8200 and is projected to score 19.90 points, yielding a cost of $412.06 per projected point. WR DeAndre Hopkins has a salary of $6200 and is projected to score 15.60 points, yielding a cost of $397.44 per projected point. One can argue that, by comparison, DeAndre Hopkins is the better value as each projected point costs less. Further, Hopkins requires $2000 less cap space than Jefferson, which can be allocated to other positions. Sorting the position lists on an ascending cost-per-point basis ranks the players by 'value' from greatest to least, but still doesn't reduce the time complexity.
 
-Intuitively, it seems that the optimal lineup is likely comprised of a set of players somewhere in the top half of their respective value sorted position lists. This notion lends itself to the idea of shortening the positions lists to remove the 'least valuable' players; however, that threshold is difficult to determine and still does not guarantee a reasonable run time. In this example, a heuristic approach is utilized to speed up runtime.  
+Intuitively, it seems reasonable that the optimal lineup is comprised of a set of players somewhere in the top half of their respective value sorted position lists. This thought lends itself to the idea of shortening the positions lists to remove the 'least valuable' players; however, the proper elimination threshold is difficult to determine and still does not guarantee a reasonable run time. In this example, a heuristic approach is utilized to speed up runtime. An element of randomness and uncertainly already exists in the uncertainty of the projected scores, so some degree of randomness in the player selection process seems appropriate.     
 
 
 
@@ -52,9 +52,13 @@ FantasyPros.com offers a plethera of resources and research, including player ra
 - Lineups Tab - After the user has locked a QB, input the number of stack lineups, and adjusted the settings in each tab, they can generate the lineups. When lineup generation is complete, the Lineups Tab is enabled for selection and the table displays 150 unique lineups and their projections. If the user is satisfied with the lineup list, they can save and export to csv for upload to DraftKings.  
 ![image](https://user-images.githubusercontent.com/61070285/151223064-648ba600-ada9-48ce-b3e6-d47732d032ff.png)
 
-- Final CSV - 
+- Final CSV - Once the user clicks the save end export button, the player IDs for each lineup are added to the original csv downloaded from DraftKings and written as a new csv file named 'final.' The final sheet can be uploaded to DraftKings utilizing the Edit Lineup tool, and all 150 lineups will be updated and ready to play. 
 ![image](https://user-images.githubusercontent.com/61070285/151223148-923346be-f164-4a65-8fbc-3113d53b9966.png)
 
+![image](https://user-images.githubusercontent.com/61070285/151393188-4cca559e-630b-4084-bbb9-2b9f4b818099.png)
+
+
+**Future Additions:**
 
 
 
