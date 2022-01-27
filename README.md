@@ -18,6 +18,7 @@ The goal is to 'pack' as many projected points into the lineup while remaining b
 
 
 
+![image](https://user-images.githubusercontent.com/61070285/151268303-647e7530-807f-4cd1-857b-94bcafcd61ab.png)
 
 
 **DATA:**
