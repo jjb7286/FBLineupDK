@@ -19,6 +19,8 @@ The goal is to 'pack' as many projected points into the lineup while remaining b
 Intuitively, it seems reasonable that the optimal lineup is comprised of a set of players somewhere in the top half of their respective value sorted position lists. This thought lends itself to the idea of shortening the positions lists to remove the 'least valuable' players; however, the proper elimination threshold is difficult to determine and still does not guarantee a reasonable run time. In this example, a heuristic approach is utilized to speed up runtime. An element of randomness already exists in the uncertainty of the projected scores, so some degree of randomness in the player selection process seems appropriate. We can randomly select a player from a position list while still being biased toward the top of the list, where the 'more valuable' players are, by utilizing the function Math.abs(Math.random() - Math.random()) * (position list size) to get the index of the player to select. An example of 5,000,000 iterations of the function for a list size of 100 is shown below. The higher value players, toward the beginning/top of the list, are slected with higher frequency and the function decreases in a linear fashion selecting players of lesser value less frequently.  
 ![image](https://user-images.githubusercontent.com/61070285/151268303-647e7530-807f-4cd1-857b-94bcafcd61ab.png)
 
+**Personal Strategy:**
+
 **DATA:**
 After pre-registering on DraftKings for an upcoming contest, the entry IDs and player names, positions, IDs, salaries, and points per game are available to export as a single CSV file, as shown below. 
 ![image](https://user-images.githubusercontent.com/61070285/151221467-be888c61-06f0-41dc-823d-845fce058bf3.png)
