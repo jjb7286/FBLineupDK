@@ -20,8 +20,8 @@ Intuitively, it seems reasonable that the optimal lineup is comprised of a set o
 ![image](https://user-images.githubusercontent.com/61070285/151268303-647e7530-807f-4cd1-857b-94bcafcd61ab.png)
 
 **Common DFS Strategies:** The solution accomidates several common DFS strategies:
-- QB-Skill Player Stacking - Lineups include at least one WR, TE, or RB (pass catching) on the same team as the QB to 'stack' any points received for caught passes, passing yards, and passing touchdowns between the QB and the stacked player.  
-- Locking Players - If the user has a strong conviction about a certain player, the player can locked on a specific amount of lineups. If several players are locked on all or the majority of lineups, the correlation of lineup scores increases, resulting in a boom or bust effect. 
+- QB-Skill Player Stacking - Lineups include at least one WR, TE, or RB (pass catching) on the same team as the QB to 'stack' any points received for caught passes, passing yards, and passing touchdowns between the QB and the stacked player - both players score simultaneousely.   
+- Locking Players - If the user has a strong conviction about a certain player(s), the player can be locked on a specific amount of lineups. If several players are locked on all, or the majority, of lineups, the correlation of lineup scores increases. This can result in a boom or bust outcome, with the majority of the linups having a narrower range of scores. 
 - Gambling Lines - Over/Unders and Point Spreads set by professional sports books provide insight about the expected outcome of a game. The Over/Under is the expected combined score of both teams in a sporting contest. The point spread is the expected margin of error of the team favorited to win. Games with comparatively higher Over/Unders are expected to provide more scoring opportunities for players. Similarly, the players on the team favorited in the point spread are expected to cumulatively outscore the players on the opposing team. 
 
 **DATA:**
